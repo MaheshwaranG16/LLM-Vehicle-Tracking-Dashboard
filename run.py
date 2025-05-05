@@ -8,7 +8,7 @@ from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe
 import os, glob, hashlib
 
 # Directory where charts are saved
-chart_dir = "D:/VTS/Chatbot/charts"
+chart_dir = "D:/llm-vehicle-tracking-dashboard/charts"
 cwd = os.getcwd()
 
 # Clean up old .png files before generating new ones
